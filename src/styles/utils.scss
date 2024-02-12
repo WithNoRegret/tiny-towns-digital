@@ -1,0 +1,13 @@
+.button {
+    color: rgb(10, 83, 32);
+    font-weight: 800;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    border: 2px solid rgb(10, 83, 32);
+    padding: 1rem;
+}
+
+.untargetable {
+    user-select: none;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './AppContent.css'
+import '../../../styles/main.css'
 
 export default function AppContent() {
   return (

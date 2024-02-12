@@ -1,0 +1,11 @@
+@import 
+    'reset',
+    'utils';
+
+@import
+    './Components/AppContent.scss',
+    './Components/AppFooter.scss',
+    './Components/AppHeader.scss';
+
+@import
+    './Pages/rules.scss';

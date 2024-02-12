@@ -1,5 +1,5 @@
 import React from 'react'
-import './AppFooter.css'
+import '../../../styles/main.css'
 
 export default function AppFooter() {
   return (

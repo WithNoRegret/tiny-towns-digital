@@ -1,9 +1,0 @@
-.button {
-    color: rgb(10, 83, 32);
-    font-weight: 800;
-    margin-left: 15px;
-}
-
-.untargetable {
-    user-select: none;
-}

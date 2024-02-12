@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  color: rgb(10, 83, 32);
+  font-weight: 800;
+  margin-left: 15px;
+  font-size: 30px;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  border: 2px solid rgb(10, 83, 32);
+  padding: 1rem;
+}
+
+.untargetable {
+  user-select: none;
+}
+
+.content {
+  background-image: url(../../../assets/content-background.jpg);
+  background-size: cover;
+  height: calc(100vh - 11rem);
+}
+
+.footer {
+  background-image: url(../../../assets/head-foot-background.jpg);
+  background-size: cover;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(22, 9, 31);
+  border-top: 1px solid black;
+}
+
+.footer-inner {
+  color: rgb(10, 83, 32);
+  font-weight: 200;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  -webkit-text-stroke: 2px #000;
+  margin-left: 15px;
+}
+
+.header {
+  background-image: url(../../../assets/head-foot-background.jpg);
+  background-size: cover;
+  height: 7rem;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+
+.header__inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__logo {
+  height: 90px;
+}
+
+.header__title-container {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  background-color: rgb(221, 198, 66);
+  border: 1px solid #2c0352;
+  box-shadow: 0 0 10px 0 #2c0352;
+  border-radius: 25%;
+}
+
+.header__menu-list {
+  font-size: 28px;
+  display: flex;
+  gap: 1rem;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+}
+
+/*# sourceMappingURL=main.css.map */

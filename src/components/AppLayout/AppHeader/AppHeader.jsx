@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './AppHeader.css'
-import '../../../styles/utils.css'
+import '../../../styles/main.css'
 import logo from '../../../assets/logo.png'
 
 const AppHeader = () => {
