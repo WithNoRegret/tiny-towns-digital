@@ -12,6 +12,7 @@ export default defineConfig({
       input: {
         main: resolve(root, 'index.html'),
         rules: resolve(root, 'pages', 'rules', 'rules.html'),
+        play: resolve(root, 'pages', 'play', 'play.html')
       }
     }
   }

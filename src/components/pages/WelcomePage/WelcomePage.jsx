@@ -3,6 +3,6 @@ import '../../../styles/main.css'
 
 export default function WelcomePage() {
   return (
-    <div>WelcomePage</div>
+    <div className='page'>WelcomePage</div>
   )
 }

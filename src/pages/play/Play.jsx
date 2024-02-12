@@ -7,9 +7,9 @@ import '../../styles/main.css';
 ReactDOM.render(
     <React.StrictMode>
         <AppLayout 
-            contentType={'rules'}
+            contentType={'game'}
         />
         <a href="/index.html" className='back-button button'>Назад</a>
     </React.StrictMode>,
     document.getElementById('root')
-)   
+)

@@ -11,3 +11,15 @@
 .untargetable {
     user-select: none;
 }
+
+.page {
+    height: 95%;
+    width: 95%; 
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

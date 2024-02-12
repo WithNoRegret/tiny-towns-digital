@@ -3,6 +3,6 @@ import '../../../styles/main.css'
 
 export default function GamePage() {
   return (
-    <div>GamePage</div>
+    <div className='page'>GamePage</div>
   )
 }
