@@ -3,6 +3,8 @@ import './AppContent.css'
 
 export default function AppContent() {
   return (
-    <div className='content'></div>
+    <div className='content'>
+
+    </div>
   )
 }

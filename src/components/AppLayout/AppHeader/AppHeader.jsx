@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './AppHeader.css'
+import '../../../styles/utils.css'
 import logo from '../../../assets/logo.png'
 
 const AppHeader = () => {
@@ -12,14 +13,16 @@ const AppHeader = () => {
                     alt="Логотип"
                     className='header__logo'
                 />
-                <h1 className='header__title'>Tiny Towns</h1>
+                <div className="header__title-container">
+                    <h1 className='header__title untargetable'>Tiny Towns</h1>
+                </div>
                 <nav className="header__menu">
                     <ul className="header__menu-list">
-                        <li className="header__menu-item">
+                        <li className="header__menu-item button">
                             <a href="" className="header__menu-link">Новая Игра</a>
                         </li>
-                        <li className="header__menu-item">
-                            <a href="./pages/rules/rules.html" className="header__menu-link">Правила</a>
+                        <li className="header__menu-item button">
+                            <a href="/pages/rules/rules.html" className="header__menu-link">Правила</a>
                         </li>
                     </ul>
                 </nav>

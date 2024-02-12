@@ -1,6 +1,12 @@
 .header {
-    background-color: #FFB366;
-    height: 5rem;
+    background-image: url(../../../assets/head-foot-background.jpg);
+    background-size: cover;
+    height: 7rem;
+
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: 30px;
+
+    border-bottom: 1px solid black;
 }
 
 .header__inner {
@@ -12,10 +18,21 @@
 }
 
 .header__logo {
-    height: 64px;
+    height: 90px;
+}
+
+.header__title-container {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    background-color: rgb(221, 198, 66);
+    border: 1px solid #2c0352;
+    box-shadow: 0 0 10px 0 #2c0352;
+    border-radius: 25%;
 }
 
 .header__menu-list {
+    font-size: 28px;
     display: flex;
     gap: 1rem;
 
@@ -23,6 +40,6 @@
 
 .header__menu-item {
     border: 1px solid black;
-    
+
     padding: 1rem;
 }

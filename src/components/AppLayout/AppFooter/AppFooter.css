@@ -1,4 +1,20 @@
 .footer {
-    background-color: #FFB366;
-    height: 64px;
+    background-image: url(../../../assets/head-foot-background.jpg);
+    background-size: cover;
+    height: 4rem;
+
+    display: flex;
+
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(22, 9, 31);
+    border-top: 1px solid black;
+}
+
+.footer-inner {
+    color: rgb(10, 83, 32);
+    font-weight: 200;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    -webkit-text-stroke: 2px #000;
+    margin-left: 15px;
 }

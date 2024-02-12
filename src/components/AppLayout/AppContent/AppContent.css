@@ -1,4 +1,5 @@
 .content {
-    background-color: #E6D4B9;
-    height: calc(100vh - 144px);
+    background-image: url(../../../assets/content-background.jpg);
+    background-size: cover;
+    height: calc(100vh - 11rem);
 }
