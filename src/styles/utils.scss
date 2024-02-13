@@ -1,10 +1,10 @@
 .button {
-    color: rgb(10, 83, 32);
+    color: rgb(44 45 44);
+    background-image: url('../assets/content-background.jpg');
     font-weight: 800;
-    margin-left: 15px;
     font-size: 30px;
     font-family: "Rubik Doodle Shadow", system-ui;
-    border: 2px solid rgb(10, 83, 32);
+    border: 2px solid currentColor;
     padding: 1rem;
 }
 
@@ -13,8 +13,8 @@
 }
 
 .page {
-    height: 95%;
-    width: 95%; 
+    height: 98%;
+    width: 98%; 
     background-color: #fff;
     border: 1px solid black;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);

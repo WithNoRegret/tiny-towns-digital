@@ -1,5 +1,5 @@
 .header {
-    background-image: url(../../../assets/head-foot-background.jpg);
+    background-image: url(../../../assets/content-background.jpg);
     background-size: cover;
     height: 7rem;
 
@@ -13,11 +13,11 @@
     height: 100%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
 }
 
-.header__title-container {
+.header__title-link {
     display: flex;
     align-items: center;
     padding: 0.8rem;
@@ -28,9 +28,20 @@
     border-radius: 25%;
 }
 
+.header__menu {
+    position: absolute;
+    margin-left: 50%;
+}
+
 .header__menu-list {
     font-size: 28px;
     display: flex;
     gap: 1rem;
 
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 16px;
 }

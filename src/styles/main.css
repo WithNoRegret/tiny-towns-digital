@@ -17,12 +17,12 @@ a {
 }
 
 .button {
-  color: rgb(10, 83, 32);
+  color: rgb(44, 45, 44);
+  background-image: url("../assets/content-background.jpg");
   font-weight: 800;
-  margin-left: 15px;
   font-size: 30px;
   font-family: "Rubik Doodle Shadow", system-ui;
-  border: 2px solid rgb(10, 83, 32);
+  border: 2px solid currentColor;
   padding: 1rem;
 }
 
@@ -31,8 +31,8 @@ a {
 }
 
 .page {
-  height: 95%;
-  width: 95%;
+  height: 98%;
+  width: 98%;
   background-color: #fff;
   border: 1px solid black;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
@@ -44,34 +44,15 @@ a {
 .content {
   background-image: url(../../../assets/content-background.jpg);
   background-size: cover;
-  height: calc(100vh - 11rem);
+  height: calc(100vh - 7rem);
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: inset 0px 0px 20px 0px #000000;
 }
 
-.footer {
-  background-image: url(../../../assets/head-foot-background.jpg);
-  background-size: cover;
-  height: 4rem;
-  display: flex;
-  align-items: center;
-  font-size: 2rem;
-  color: rgb(22, 9, 31);
-  border-top: 1px solid black;
-}
-
-.footer-inner {
-  color: rgb(10, 83, 32);
-  font-weight: 200;
-  font-family: "Rubik Doodle Shadow", system-ui;
-  -webkit-text-stroke: 2px #000;
-  margin-left: 15px;
-}
-
 .header {
-  background-image: url(../../../assets/head-foot-background.jpg);
+  background-image: url(../../../assets/content-background.jpg);
   background-size: cover;
   height: 7rem;
   font-family: "Rubik Doodle Shadow", system-ui;
@@ -82,11 +63,11 @@ a {
 .header__inner {
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
 }
 
-.header__title-container {
+.header__title-link {
   display: flex;
   align-items: center;
   padding: 0.8rem;
@@ -95,6 +76,11 @@ a {
   border: 1px solid #2c0352;
   box-shadow: 0 0 10px 0 #2c0352;
   border-radius: 25%;
+}
+
+.header__menu {
+  position: absolute;
+  margin-left: 50%;
 }
 
 .header__menu-list {

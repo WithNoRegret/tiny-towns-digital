@@ -9,7 +9,6 @@ ReactDOM.render(
         <AppLayout 
             contentType={'rules'}
         />
-        <a href="/index.html" className='back-button button'>Назад</a>
     </React.StrictMode>,
     document.getElementById('root')
 )   
